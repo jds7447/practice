@@ -14,9 +14,9 @@
 		<div class="collapse navbar-collapse" id="navMenu">
 			<ul class="navbar-nav" style="margin:0 auto;">
 				<li class="nav-item">
-					<form class="navbar-form" role="search" action="#" name="research" method="post">
+					<form class="navbar-form" role="search" action="#" method="post" name="searchField" id="searchField">
 						<div class="form-group row" style="margin:0 auto;">
-							<input type="text" class="form-control col-sm-9" placeholder="Search">
+							<input type="text" class="form-control col-sm-9" placeholder="Search" name="searchWord" id="searchWord">
 							<button type="submit" class="btn btn-default col-sm-3">검색</button>
 						</div>
 					</form>
