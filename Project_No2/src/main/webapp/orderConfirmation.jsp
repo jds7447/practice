@@ -3,10 +3,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
-<%@ page import="java.util.ArrayList" %>
 <%@ page import="java.net.URLDecoder" %>
+<%@ page import="java.util.HashMap" %>
+<%@ page import="java.util.Map" %>
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="java.util.List" %>
 <%@ page import="dto.Product" %>
-<%@ page import="dao.ProductRepository" %>
+<%@ page import="dao.ProductDAO" %>
 
 <%
 //전달 받은 요청 객체의 한글을 읽을 수 있게 인코딩
@@ -58,8 +61,11 @@ if(cookies != null) {
 <html>
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="./CSS/bootstrap.min.css" />
-	<title>주문 정보</title>
+	<link rel="stylesheet" href="./resources/css/bootstrap.min.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<title>쇼핑도 취미다, 오버페이 마켓</title>
 </head>
 <body>
 	<!-- menu.jsp 페이지의 HTML 코드만 가져와 현재 페이지에 내장시킨다 -->

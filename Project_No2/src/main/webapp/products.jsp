@@ -11,15 +11,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+	<link rel="stylesheet" href="./resources/css/bootstrap.min.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 	<meta charset="UTF-8">
-	<title>상품 목록</title>
+	<title>쇼핑도 취미다, 오버페이 마켓</title>
 </head>
 <body style="padding-top: 57px;">
-	<jsp:include page="menu.jsp" />
+	<jsp:include page="./menu.jsp" />
 	<div class="jumbotron">
 		<div class="container">
 			<h1 class="display-3">상품 목록</h1>

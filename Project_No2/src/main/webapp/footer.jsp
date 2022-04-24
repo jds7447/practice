@@ -4,10 +4,10 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Insert title here</title>
+	<title>쇼핑도 취미다, 오버페이 마켓</title>
 	<!-- 자바스크립트 프레임워크인 bootstrap 4 스타일을 CDN 방식으로 불러와 활용 -->
 	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
-	<link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+	<link rel="stylesheet" href="./resources/css/bootstrap.min.css" />
 </head>
 <body>
 	<!-- 

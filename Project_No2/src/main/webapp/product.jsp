@@ -11,12 +11,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+	<link rel="stylesheet" href="./resources/css/bootstrap.min.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 	<meta charset="UTF-8">
-	<title>상품 상세 정보</title>
+	<title>쇼핑도 취미다, 오버페이 마켓</title>
 	
 	<script type="text/javascript">
 		function addToCart() {   //장바구니 추가 확인 (yes or no 다이얼로그 박스)

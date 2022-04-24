@@ -3,7 +3,7 @@ package dto;
 import java.io.Serializable;
 
 public class Product implements Serializable {
-	private static final long serialVersionUID = -4274700572038677000L;
+//	private static final long serialVersionUID = -4274700572038677000L;
 	
 	private String productId;   //상품 아이디
 	private String pname;   //상품명

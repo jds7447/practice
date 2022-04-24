@@ -2,7 +2,6 @@
     pageEncoding="UTF-8"%>
 
 <%@ page import="dto.Product" %>
-<%@ page import="dao.ProductRepository" %>
 
 <%
 String id = request.getParameter("cartId");   //요청 시 전달 받은 id 파라미터의 값 저장

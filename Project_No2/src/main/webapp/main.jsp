@@ -10,19 +10,19 @@
 	<meta charset="UTF-8">
 	<!-- 자바스크립트 프레임워크인 bootstrap 4 스타일을 CDN 방식으로 불러와 활용 -->
 	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
-	<link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+	<link rel="stylesheet" href="./resources/css/bootstrap.min.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-	<title>쇼핑도 취미다, 52마켓</title>
+	<title>쇼핑도 취미다, 오버페이 마켓</title>
 </head>
 <body style="padding-top: 57px;">
 	<jsp:include page="menu.jsp" />
 	<!-- 문자열 데이터 입력 -->
 	<%!
 	//선언문으로 문자열 변수 정의
-	String greeting = "웹 쇼핑몰에 오신 것을 환영합니다";
-	String tagline = "Welcome to Web Market!";
+	String greeting = "오버페이 쇼핑몰에 오신 것을 환영합니다";
+	String tagline = "Welcome to Overpay Market!";
 	%>
 	<!-- jumbotron : 특정 내용을 강조하기 위해 보여주는 박스 (부스트스랩 컴포넌트) -->
 	<div class="jumbotron" style="background-image: url('')">

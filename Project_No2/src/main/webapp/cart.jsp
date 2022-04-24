@@ -2,21 +2,27 @@
     pageEncoding="UTF-8"%>
 
 <%@ page import="java.util.ArrayList" %>
+<%@ page import="java.util.List" %>
 <%@ page import="dto.Product" %>
-<%@ page import="dao.ProductRepository" %>
+<%@ page import="dao.ProductDAO" %>
+<%@ page import="java.util.HashMap" %>
+<%@ page import="java.util.Map" %>
 
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+	<link rel="stylesheet" href="./resources/css/bootstrap.min.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 	<%
 	//session.getId() : 현재 세션 고유의 ID를 문자열 형태로 반환
 	String cartId = session.getId();
 	%>
-	<title>장바구니</title>
+	<title>쇼핑도 취미다, 오버페이 마켓</title>
 </head>
-<body>
+<body style="padding-top: 57px;">
 	<!-- menu.jsp 페이지의 HTML 코드만 가져와 현재 페이지에 내장시킨다 -->
 	<!-- 동적으로 페이지를 할당할 때 주로 사용되는 클라이언트 단의 내장 방식 -->
 	<jsp:include page="menu.jsp" />

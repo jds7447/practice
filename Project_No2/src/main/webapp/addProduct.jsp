@@ -14,7 +14,7 @@
 	<script type="text/javascript" src="./js/validation.js"></script>
 	
 	<meta charset="UTF-8">
-	<title>상품 등록</title>
+	<title>쇼핑도 취미다, 오버페이 마켓</title>
 </head>
 <body style="padding-top: 57px;">
 	<fmt:setLocale value='<%= request.getParameter("language") %>' />
