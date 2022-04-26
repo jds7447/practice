@@ -24,7 +24,7 @@ navbar 반응형 축소 및 색 구성표 클래스
 			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navMenu">
 				<span class="navbar-toggler-icon"></span>        
 			</button>
-			<a class="navbar-brand" href="welcome.jsp">오버페이</a>
+			<a class="navbar-brand" href="./main.jsp">오버페이</a>
 		</div>
 		<div class="collapse navbar-collapse" id="navMenu">
 			<ul class="navbar-nav" style="margin:0 auto;">

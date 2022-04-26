@@ -2,8 +2,11 @@
     pageEncoding="UTF-8"%>
 
 <%@ page import="java.util.ArrayList" %>
+<%@ page import="java.util.List" %>
 <%@ page import="dto.Product" %>
-<%@ page import="dao.ProductRepository" %>
+<%@ page import="dao.ProductDAO" %>
+<%@ page import="java.util.HashMap" %>
+<%@ page import="java.util.Map" %>
 
 <%
 String id = request.getParameter("id");   //요청 시 전달 받은 id 파라미터의 값 저장
@@ -13,11 +16,12 @@ if(id == null || id.trim().equals("")) {   //해당 값이 비었으면
 }
 
 //상품 데이터 저장소 객체 생성
-ProductRepository dao = ProductRepository.getInstance();
+Map<String, Object> search = new HashMap<String, Object>();
+ProductDAO dao = new ProductDAO();
 
 //전달받은 id 값에 해당하는 상품 데이터 가져오기
-Product product = dao.getProductById(id);
-if(product == null) {   //상품 데이터가 비어있으면 에러처리 페이지로 이동
+Product dto = dao.selectListById(search, id);
+if(dto == null) {   //상품 데이터가 비어있으면 에러처리 페이지로 이동
 	response.sendRedirect("exceptionNoProductId.jsp");
 }
 

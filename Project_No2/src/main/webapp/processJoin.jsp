@@ -39,6 +39,6 @@ dao.close();
 if(result == 1) {
 	response.sendRedirect("thankJoin.jsp");
 } else {
-	
+	response.sendRedirect("loginForm.jsp");
 }
 %>
