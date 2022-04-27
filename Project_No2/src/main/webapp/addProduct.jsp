@@ -32,7 +32,6 @@
 		<div class="text-right">
 			<a href="?language=ko">Korean</a> | <a href="?language=en">English</a>
 		</div>
-	
 		<form action="./processAddProduct.jsp" name="newProduct" class="form-horizontal" method="post" enctype="multipart/form-data">
 			<div class="form-group row">
 				<label class="col-sm-2"><fmt:message key="productId" /></label>
