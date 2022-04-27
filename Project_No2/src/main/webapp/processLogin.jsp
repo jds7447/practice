@@ -1,7 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+
 <%@ page import="dao.MemberDAO" %>
 <%@ page import="dto.MemberDTO" %>
+
 <%
 //로그인 폼으로부터 받은 아이디와 패스워드
 String userId = request.getParameter("user_id");
@@ -24,7 +26,7 @@ if(memberDTO.getId() != null){
 	//로그인 성공
 	session.setAttribute("UserId", memberDTO.getId());  //memberDTO에 입력된 id값을 가져온다 ->musthave
 	session.setAttribute("UserName", memberDTO.getName());  //memberDTO.getName() -> 머스트해브
-	response.sendRedirect("welcome.jsp");
+	response.sendRedirect("main.jsp");
 } //값이 확장된다. 값은 변화되어지고 변화하면서 돌아올 수 있다.
 else {
 	//로그인 실패

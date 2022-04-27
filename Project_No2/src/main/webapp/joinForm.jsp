@@ -285,15 +285,23 @@
 						</div>
         			</div>
 				</div>
+
+			    <style>
+			    	input[name="gender"]:checked + label {
+						background-color: #007bff;
+						color: white;
+					}
+			    </style>
+				
 				<div class="mb-3">
 					<label for="exampleFormControlInput1" class="form-label">성별</label>
 					<label style="font-size: 11px;">(선택)</label><br>
 					<div class="d-grid gap-2 col-6 mx-auto ">
   						<div class="btn-group " role="group" aria-label="Basic radio toggle button group">
-							<input type="radio" class="btn-check" name="gender" id="gender" autocomplete="off" style="display: none;" value="M">
-  							<label class="btn btn-outline-secondary" for="gender">남자</label>
-  							<input type="radio" class="btn-check" name="gender" id="gender" autocomplete="off" style="display: none;" value="F">
-  							<label class="btn btn-outline-secondary" for="gender">여자</label>
+							<input type="radio" class="btn-check" name="gender" id="genderM" autocomplete="off" style="display: none;" value="M">
+  							<label class="btn btn-outline-secondary" for="genderM">남자</label>
+  							<input type="radio" class="btn-check" name="gender" id="genderF" autocomplete="off" style="display: none;" value="F">
+  							<label class="btn btn-outline-secondary" for="genderF">여자</label>
 						</div>
 					</div>
 				</div>

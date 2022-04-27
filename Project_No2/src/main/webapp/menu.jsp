@@ -16,7 +16,6 @@ navbar 반응형 축소 및 색 구성표 클래스
 
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-
 <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top shadow-lg">
 <!-- <nav class="navbar navbar-default bg-dark navbar-dark fixed-top shadow-lg" > -->
 	<div class="container-fluid">

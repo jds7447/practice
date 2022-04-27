@@ -38,8 +38,6 @@
 			<%
 			for(int i = 0; i < listOfProducts.size(); i++) {
 				Product product = listOfProducts.get(i);
-
-				System.out.println(product.getOfile());
 			%>
 			<div class="col-md-4">
 				<%-- <img src="./Images/<%= product.getFilename() %>" style="width: 100%" /> --%>   <!-- 프로젝트 내 폴더 사용 -->

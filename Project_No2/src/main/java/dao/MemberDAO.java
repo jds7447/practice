@@ -149,5 +149,6 @@ public class MemberDAO extends JDBConnect{
 			e.printStackTrace();
 		}
 		return result;
-	}	
+	}
+	
 }
