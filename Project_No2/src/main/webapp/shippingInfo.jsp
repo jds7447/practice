@@ -12,7 +12,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 	<title>쇼핑도 취미다, 오버페이 마켓</title>
 </head>
-<body>
+<body style="padding-top: 57px;">
 	<!-- menu.jsp 페이지의 HTML 코드만 가져와 현재 페이지에 내장시킨다 -->
 	<!-- 동적으로 페이지를 할당할 때 주로 사용되는 클라이언트 단의 내장 방식 -->
 	<jsp:include page="menu.jsp" />
@@ -81,5 +81,7 @@
 			</div>
 		</form>
 	</div>
+	
+	<jsp:include page="./footer.jsp" />
 </body>
 </html>

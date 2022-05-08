@@ -1,9 +1,6 @@
 package dto;
 
-import java.io.Serializable;
-
-public class Product implements Serializable {
-//	private static final long serialVersionUID = -4274700572038677000L;
+public class Product {
 	
 	private String productId;   //상품 아이디
 	private String pname;   //상품명
@@ -13,8 +10,8 @@ public class Product implements Serializable {
 	private String category;   //상품 분류
 	private long unitsInStock;   //재고 수
 	private String condition;   //신상품 or 중고품 or 재생품
-	private String ofile;   //원본 파일명
-	private String sfile;   //서버 저장 파일명
+	private String ofile;   //상품 이미지 원본 파일명
+	private String sfile;   //상품 이미지 서버 저장 파일명
 	private int quantity;   //장바구니에 담은 개수
 	private int orderCount;   //주문 횟수
 	

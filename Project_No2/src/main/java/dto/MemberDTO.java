@@ -3,15 +3,15 @@ package dto;
 import java.sql.Date;
 
 public class MemberDTO {
-	String id;
-	String pass;
-	String name;
-	String phoneNum;
-	String birthday;
-	String gender;
-	String postcode;
-	String address;
-	Date regidate;
+	String id;   //회원 아이디
+	String pass;   //회원 비밀번호
+	String name;   //회원 이름
+	String phoneNum;   //회원 전화번호
+	String birthday;   //회원 생년월일
+	String gender;   //회원 성별
+	String postcode;   //회원 우편번호
+	String address;   //회원 주소
+	Date regidate;   //회원 가입일
 	
 	public String getId() {
 		return id;

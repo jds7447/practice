@@ -325,7 +325,7 @@
 		</div>
 	</div>
 </div>
-	
+
 	<div class="modal">
 	</div>
 	
@@ -339,6 +339,5 @@
 	%>
 	<div class="container"><hr></div>
 	<jsp:include page="footer.jsp" />
-	
 </body>
 </html>

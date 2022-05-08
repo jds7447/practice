@@ -15,7 +15,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 	<title>주문 완료</title>
 </head>
-<body>
+<body style="padding-top: 57px;">
 	<%
 	//전달 받은 요청 객체의 한글을 읽을 수 있게 인코딩
 	request.setCharacterEncoding("UTF-8");
@@ -74,6 +74,8 @@
 		<%-- &laquo;  :  << 표시 --%>
 		<p><a href="./products.jsp" class="btn btn-secondary">&laquo; 상품 목록</a></p>
 	</div>
+	
+	<jsp:include page="./footer.jsp" />
 </body>
 </html>
 
